@@ -31,7 +31,7 @@ const Header = () => {
             alt="Profile"
             className="w-16 h-16 object-cover mr-2"
           />
-          <Link to="/">Nani Estates</Link>
+          <Link to="/">SiwaKesh Estates</Link>
         </div>
         <nav className="hidden md:flex space-x-20">
           <Link to="/" className="hover:text-gray-300 font-mono text-xl">
