@@ -107,7 +107,7 @@ const Contact = () => {
             <span role="img" aria-label="mobile">
               Phone 📱 :
             </span>{" "}
-            +447919492312
+            +441234567890
           </p>
           <p className="mb-8 text-xl">
             <span role="img" aria-label="email">
