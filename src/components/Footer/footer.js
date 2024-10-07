@@ -21,7 +21,7 @@ const Footer = () => {
               <span role="img" aria-label="mobile">
                 📱
               </span>
-              +447919492312
+              +44123456789
             </p>
             <p>
               <span role="img" aria-label="email">
