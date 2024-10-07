@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import prs from '../../assets/prs.png';
-import ico from '../../assets/ico.jpeg';
+import React from "react";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import prs from "../../assets/prs.png";
+import ico from "../../assets/ico.jpeg";
 
 const Footer = () => {
   return (
@@ -11,9 +11,24 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="font-bold text-lg mb-2">Contact Now</h3>
-            <p><span role="img" aria-label="address">📍</span>Aldershot, UK</p>
-            <p><span role="img" aria-label="mobile">📱</span>+447919492312</p>
-            <p><span role="img" aria-label="email">📧</span> info@redmarsestates.co.uk</p>
+            <p>
+              <span role="img" aria-label="address">
+                📍
+              </span>
+              Aldershot, UK
+            </p>
+            <p>
+              <span role="img" aria-label="mobile">
+                📱
+              </span>
+              +447919492312
+            </p>
+            <p>
+              <span role="img" aria-label="email">
+                📧
+              </span>{" "}
+              info@naniestates.co.uk
+            </p>
           </div>
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="font-bold text-lg mb-2">Mortgage Services</h3>
@@ -42,23 +57,53 @@ const Footer = () => {
         <div className="md:flex md:justify-between mt-4">
           <div>
             <ul className="flex justify-center md:justify-start space-x-4 mb-4">
-              <li><Link to="/policy" className="hover:text-gray-300">Policy</Link></li>
-              <li><Link to="/terms-and-conditions" className="hover:text-gray-300">Terms and Conditions</Link></li>
-              <li><Link to="/contact" className="hover:text-gray-300">Contact Us</Link></li>
+              <li>
+                <Link to="/policy" className="hover:text-gray-300">
+                  Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/terms-and-conditions"
+                  className="hover:text-gray-300"
+                >
+                  Terms and Conditions
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-gray-300">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
             <ul className="flex justify-center md:justify-start space-x-4 mb-4">
               <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-300"
+                >
                   <FaFacebookF />
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-300"
+                >
                   <FaInstagram />
                 </a>
               </li>
               <li>
-                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+                <a
+                  href="https://tiktok.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-300"
+                >
                   <FaTiktok />
                 </a>
               </li>
@@ -67,11 +112,12 @@ const Footer = () => {
         </div>
         <div className="text-center mt-4 md:font-bold">
           <p className="text-sm md:text-base font-bold">
-            "YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE"
+            "YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON
+            YOUR MORTGAGE"
           </p>
         </div>
         <div className="text-center mt-4">
-          <p>© 2024 KRy Inc, Red Mars Estates Ltd</p>
+          <p>© 2024 KRy Inc, Nani Estates Ltd</p>
         </div>
       </div>
     </footer>
